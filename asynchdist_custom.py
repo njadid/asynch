@@ -1,4 +1,4 @@
-from asynch_py.asynch_interface import *
+from py.asynch_interface import *
 import sys
 import timeit
 
@@ -50,14 +50,14 @@ def InitRoutines_MyModel(link_ptr,model_type,exp_imp,dam,lib_ptr):
 	lib = cast(lib_ptr,py_object).value
 	link = link_ptr.contents
 
-	link.dim = 6;
-	link.no_ini_start = 3;
-	link.diff_start = 0;
+	link.dim = 6
+	link.no_ini_start = 3
+	link.diff_start = 0
 
-	link.num_dense = 2;
+	link.num_dense = 2
 	link.dense_indices = lib.Allocate_CUINT_Array(link.num_dense)
-	link.dense_indices[0] = 0;
-	link.dense_indices[1] = 5;
+	link.dense_indices[0] = 0
+	link.dense_indices[1] = 5
 
 	if link.res:
 		link.f = LinearHillslope_Reservoirs_MyModel

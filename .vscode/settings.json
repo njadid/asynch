@@ -1,0 +1,6 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.errorSquiggles": "Enabled",
+    "clang.executable": "clang",
+    "python.pythonPath": "/Users/njadidoleslam/virtenvs/MPIVEnv/bin/python2.7",
+}

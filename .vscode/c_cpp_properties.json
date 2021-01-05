@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${default}",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}",
+                "~/virtenvs/MPIVEnv/include/python2.7"
+            ]
+        },
+        {
+            "name": "python hlm",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

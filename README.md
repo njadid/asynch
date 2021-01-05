@@ -23,3 +23,16 @@ The html documentation is generated in `docs/.build/html`.
 ## Testing
 
 Asynch doesn't have a good test covergage at the moment but the unit test framework is in place.
+
+
+LOAD these modules first:
+
+module use /Dedicated/IFC/.argon/modules
+module load python/2.7.14_openmpi-2.0.1_parallel_studio-2017.1
+module load libtool
+
+execute these commands
+aureconf
+./configure
+make
+
